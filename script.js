@@ -8,7 +8,7 @@ const friends = [
     { avatar: "saturn.jpg", name: "🪐 sᴀᴛᴜʀɴ / +𝟦 𝖬𝖲𝖪 🔰" },
     { avatar: "cult.jpg", name: "᛭ Cultovik ᛭" },
     { avatar: "onlu.jpg", name: "I am OnlySmertnik" },
-    { avatar: "trip.jpg", name: "Tripadonka ✟ #WhitePride" } // Новый друг
+    { avatar: "trip.jpg", name: "Tripadonka ✟ #WhitePride" }
 ];
 
 let currentIndex = 0;
