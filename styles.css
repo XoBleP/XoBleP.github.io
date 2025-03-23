@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4B0082; /* Фиолетовый */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+}
+
+#friends {
+    margin-bottom: 40px;
+}
+
+.friends-list {
+    display: flex;
+    overflow-x: auto; /* Горизонтальный скролл */
+    gap: 20px;
+    padding-bottom: 10px; /* Чтобы скролл не перекрывал контент */
+}
+
+.friend {
+    text-align: center;
+    flex: 0 0 auto; /* Чтобы элементы не сжимались */
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #4B0082; /* Фиолетовая рамка */
+}
+
+h3 {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #4B0082; /* Фиолетовый */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
