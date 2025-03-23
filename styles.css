@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #000, #003366); /* Черно-голубой градиент */
+    background: linear-gradient(135deg, #000, #003366); 
     color: #fff;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ p {
 h2 {
     margin: 0 0 20px;
     font-size: 1.8em;
-    color: #00bfff; /* Голубой цвет для заголовка */
+    color: #00bfff; 
 }
 
 .friend-display {
@@ -49,7 +49,7 @@ h2 {
 }
 
 .frame {
-    border: 3px solid #00bfff; /* Голубая рамка */
+    border: 3px solid #00bfff; 
     border-radius: 50%;
     padding: 5px;
     display: inline-block;
