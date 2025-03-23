@@ -9,6 +9,7 @@ const friends = [
     { avatar: "cult.jpg", name: "᛭ Cultovik ᛭" },
     { avatar: "Onlu.jpg", name: "I am OnlySmertnik" },
     { avatar: "trip.jpg", name: "Tripadonka ✟ #WhitePride" }
+    { avatar: "int.jpg", name: "Интарк" }
 ];
 
 let currentIndex = 0;
