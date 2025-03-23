@@ -7,7 +7,7 @@ const friends = [
     { avatar: "galaktik.jpg", name: "галактиков паліцейски" },
     { avatar: "saturn.jpg", name: "🪐 sᴀᴛᴜʀɴ / +𝟦 𝖬𝖲𝖪 🔰" },
     { avatar: "cult.jpg", name: "᛭ Cultovik ᛭" },
-    { avatar: "onlu.jpg", name: "I am OnlySmertnik" },
+    { avatar: "Onlu.jpg", name: "I am OnlySmertnik" },
     { avatar: "trip.jpg", name: "Tripadonka ✟ #WhitePride" }
 ];
 
