@@ -36,6 +36,12 @@ p {
     text-align: center;
 }
 
+h2 {
+    margin: 0 0 20px;
+    font-size: 1.8em;
+    color: #00bfff; /* Голубой цвет для заголовка */
+}
+
 .friend-display {
     display: flex;
     flex-direction: column;
