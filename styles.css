@@ -1,20 +1,24 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #000;
+    background: linear-gradient(135deg, #000, #4B0082); /* Черно-фиолетовый градиент */
     color: #fff;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 header {
-    background-color: #4B0082; /* Фиолетовый */
-    padding: 20px;
-    text-align: center;
+    padding: 40px 20px;
 }
 
 h1 {
     margin: 0;
-    color: #fff;
+    font-size: 2.5em;
+}
+
+p {
+    margin: 10px 0 0;
+    color: #ccc;
 }
 
 section {
@@ -22,39 +26,49 @@ section {
 }
 
 #friends {
-    margin-bottom: 40px;
+    position: relative;
+    height: 300px; /* Высота блока друзей */
+    overflow: hidden;
 }
 
 .friends-list {
-    display: flex;
-    overflow-x: auto; /* Горизонтальный скролл */
-    gap: 20px;
-    padding-bottom: 10px; /* Чтобы скролл не перекрывал контент */
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
 .friend {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
-    flex: 0 0 auto; /* Чтобы элементы не сжимались */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.friend.active {
+    opacity: 1;
 }
 
 .avatar {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 2px solid #4B0082; /* Фиолетовая рамка */
+    border: 3px solid #4B0082;
+}
+
+/* Стили для видео */
+video.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #4B0082;
 }
 
 h3 {
     margin: 10px 0 0;
-    font-size: 1.2em;
-}
-
-footer {
-    background-color: #4B0082; /* Фиолетовый */
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    font-size: 1.5em;
 }
