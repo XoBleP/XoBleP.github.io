@@ -18,19 +18,31 @@ const nameElement = document.getElementById("current-name");
 function showNextFriend() {
     const friend = friends[currentIndex];
 
+    // Очищаем содержимое avatarElement
+    avatarElement.innerHTML = "";
+
     // Если это видео
     if (friend.avatar.endsWith(".mp4")) {
-        avatarElement.innerHTML = `
-            <video class="avatar" autoplay muted loop>
-                <source src="${friend.avatar}" type="video/mp4">
-                Ваш браузер не поддерживает видео.
-            </video>
-        `;
+        const video = document.createElement("video");
+        video.className = "avatar";
+        video.autoplay = true;
+        video.muted = true;
+        video.loop = true;
+        const source = document.createElement("source");
+        source.src = friend.avatar;
+        source.type = "video/mp4";
+        video.appendChild(source);
+        avatarElement.appendChild(video);
     } else {
         // Если это изображение
-        avatarElement.innerHTML = `<img src="${friend.avatar}" alt="${friend.name}" class="avatar">`;
+        const img = document.createElement("img");
+        img.src = friend.avatar;
+        img.alt = friend.name;
+        img.className = "avatar";
+        avatarElement.appendChild(img);
     }
 
+    // Обновляем имя
     nameElement.textContent = friend.name;
 
     // Переход к следующему другу
