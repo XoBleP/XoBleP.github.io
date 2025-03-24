@@ -11,6 +11,7 @@ const friends = [
     { avatar: "trip.jpg", name: "Tripadonka ✟ #WhitePride" },
     { avatar: "int.jpg", name: "Интарк" }, 
     { avatar: "over.jpg", name: "𓆩I'm overheaven𓆪" }, 
+    { avatar: "ebyr.jpg", name: "𝙀𝙗𝙮𝙧 #𝙨𝙤𝙛𝙩𝙨 #𝙨𝙤𝙛𝙩 #𝘀𝗼𝗳𝘁𝘀" }, 
 ];
 
 let currentIndex = 0;
