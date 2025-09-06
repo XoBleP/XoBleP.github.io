@@ -1,13 +1,8 @@
 const friends = [
     { avatar: "Cerdise.jpg", name: "Cerdise" },
     { avatar: "Levin.jpg", name: "Ян Лев!н" },
-    { avatar: "cvefinder.jpg", name: "cvefinder паліцейски" },
-    { avatar: "ceven.jpg", name: "𝙘𝙚𝙫𝙚𝙣" },
-    { avatar: "galaktik.jpg", name: "галактиков паліцейски" },
-    { avatar: "trip.jpg", name: "Tripadonka ✟ #WhitePride" },
-    { avatar: "over.jpg", name: "𓆩I'm overheaven𓆪" }, 
-    { avatar: "ebyr.jpg", name: "𝙀𝙗𝙮𝙧 #𝙨𝙤𝙛𝙩𝙨 #𝙨𝙤𝙛𝙩 #𝘀𝗼𝗳𝘁𝘀" }, 
-    { avatar: "Hayde.jpg", name: "MrHayde" }, 
+    { avatar: "cvefinder.jpg", name: "cvefinder" },
+    { avatar: "Arbyz.mp4", name: "DarkMyst" }
 ];
 
 let currentIndex = 0;
